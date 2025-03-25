@@ -9,3 +9,9 @@ create table curso(
     nombre varchar(25),
     apellido varchar(25)
 );
+
+create table institucion(
+    id_inst int primary key,
+    nombre varchar(25),
+    lugar varchar(100)
+);
